@@ -18,3 +18,10 @@
     margin-top: 0.5%;
     left: -15%;
 }
+#mensaje{
+    display: none;
+}
+
+#seccionMensaje{
+    background-color: blueviolet;
+}

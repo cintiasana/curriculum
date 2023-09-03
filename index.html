@@ -8,6 +8,7 @@
     <title>Curriculum Vitae: Cintia Sana.</title>
 </head>
 <body>
+    <section id="seccionPortada">
     <div id="portada" class="container text-center">
         <div class="row">
             <div class="col">
@@ -31,8 +32,9 @@
             </div>
             <div class="col-10 col-md-6 col-sm-4">
                 <form>
-                    <label for="nombre">¿Cual es tu nombre?</label>
-                    <input type="text" id="NombreUsuario">
+                    <label>¿Cual es tu nombre?
+                    <input type="text" id="nombreUsuario" required>
+                </label>
                 </form>        
             </div>
             <div class="col-1">
@@ -51,24 +53,32 @@
         
             </div>
             <div class="col-5 col-md-3 col-sm-2">
-                <button type="button" class="btn btn-light">Ingresar</button>
+                <button id="ingresarNombre" type="button" class="btn btn-light">Ingresar</button>
             </div>
         </div>
     </div>
-
-        
-
-
-
-
-
-
-
-
-
-
+</section>
+    <!--oculto hasta ingresar-->
+<section id="seccionMensaje" >
+    <p id="mensaje" > Bienvenid@ <span id="nom_inv">invitad@!!, </span> mi nombre es Cintia Sana, vivo en Córdoba Argentina; actualmente trabajo como administrativa dentro de la cadena de supermecado Cencosud S.A. <br>
+    Me apasiona la automatización de procesos, mi trabajo consiste en simplicar tareas repetitivas en la parte administrativa creando, con la ayuda de Excel, pequeños sistemas que facilitan la manipulacion de datos e informacion. <br>
+    Por esta razon decidí ampliar mis conocimientos estudiando Programacion, para adquirir nuevas habilidades y seguir haciendo lo que me gusta; brindando soluciones eficaces para el usuario. <br>
+    <br>
+    Te invito a que veas mi desarrollo personal!!
+    </p>
+</section>
 
 
+
+
+
+
+
+
+
+
+
+    <script src="/js/funciones.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
