@@ -23,5 +23,6 @@
 }
 
 #seccionMensaje{
-    background-color: blueviolet;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
 }
