@@ -1,6 +1,6 @@
 
 #portada{
-    margin-top: 2%;
+    margin-top: .5%;
     border:solid 1% black;
 }
 #imgPortada{
@@ -9,20 +9,48 @@
     box-shadow: 10px 20px 28px #B9B4C7;
 }
 
-#ingresoNombre{
-    margin-top: -10%;
+.ingresarNombre{
     border-radius: 1%;
+    margin-top: -15%;
+    margin-left: 35%;
+    display: flexbox;
+}
+#ingresarNombre.btn.btn-light{
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 #btnIngresar{
-    margin-top: 0.5%;
-    left: -15%;
+    margin-top: -2%;
+    left: 15%;
 }
-#mensaje{
+/*#mensaje{
     display: none;
+}*/
+
+.titulo{
+    margin-top: -5%;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+body{
+    background-image: url(/assets/img/fondo.jpg);
 }
 
 #seccionMensaje{
+    display: none;
     font-family: 'Dancing Script', cursive;
-    font-size: 30px;
+    font-size: 33px;
+    margin: 8%;
+}
+
+.seccionMensaje{
+    background-image: url(/assets/img/fondo.jpg);
+}
+
+#seguir.btn.btn-light{
+    font-size: 75%;
+    margin-top: -3%;
+    margin-left: 45%;
 }

@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+<!-- link css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+<!--link de bootstrap-->    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!--link font google-->    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fascinate&family=Splash&display=swap" rel="stylesheet">
+<!--titulo -->    
     <title>Curriculum Vitae: Cintia Sana.</title>
+<!--icono de pestaña / favicon-->
+    <link rel="icon" href="assets/img/20220914_005945.ico">  
 </head>
 <body>
     <section id="seccionPortada">
@@ -18,7 +24,7 @@
             
             </div>
             <div class="col-12">
-                <img id="imgPortada" src="/assets/img/Portada.jpg" alt="Portada" width="100%" height="100%">
+                <img id="imgPortada" src="./assets/img/Portada.jpg" alt="Portada" width="100%" height="90%">
             </div>
             <div class="col">
             
@@ -26,62 +32,32 @@
         </div>
     </div>
 
-    
 
-    <div id="ingresoNombre" class="container text-center">
-        <div class="row">
-            <div class="col-1">
-                
-            </div>
-            <div class="col-10 col-md-6 col-sm-4">
-                <form>
-                    <label>¿Cual es tu nombre?
-                    <input type="text" id="nombreUsuario" required>
-                </label>
-                </form>        
-            </div>
-            <div class="col-1">
-                
-            </div>
-        </div>
-    </div>
+    <div class="ingresarNombre">
+        <form>
+            <label>¿Cual es tu nombre?
+                <input type="texto" id="nombreUsuario" required>
+            </label>
+        </form> 
+        <button id="ingresarNombre" type="button" class="btn btn-light">Ingresar</button>
 
 
-    <div id="btnIngresar" class="container text-center">
-        <div class="row">
-            <div class="col-3">
-            
-            </div>
-            <div class="col-4">
-        
-            </div>
-            <div class="col-5 col-md-3 col-sm-2">
-                <button id="ingresarNombre" type="button" class="btn btn-light">Ingresar</button>
-            </div>
-        </div>
-    </div>
 </section>
     <!--oculto hasta ingresar-->
-<section id="seccionMensaje" >
-    <p id="mensaje" > Bienvenid@ <span id="nom_inv">invitad@!!, </span> mi nombre es Cintia Sana, vivo en Córdoba Argentina; actualmente trabajo como administrativa dentro de la cadena de supermecado Cencosud S.A. <br>
-    Me apasiona la automatización de procesos, mi trabajo consiste en simplicar tareas repetitivas en la parte administrativa creando, con la ayuda de Excel, pequeños sistemas que facilitan la manipulacion de datos e informacion. <br>
-    Por esta razon decidí ampliar mis conocimientos estudiando Programacion, para adquirir nuevas habilidades y seguir haciendo lo que me gusta; brindando soluciones eficaces para el usuario. <br>
+<section class="seccionMensaje" id="seccionMensaje" >
+    <h2 class="titulo">Curriculum Vitae: Cintia Sana.</h2>
     <br>
+    <p id="mensaje" >Bienvenid@ <strong><span id="nom_inv">invitad@!!, </span></strong> mi nombre es Cintia Sana, vivo en Córdoba Argentina; actualmente trabajo como administrativa dentro de la cadena de supermecado Cencosud S.A. <br>
+    Me apasiona la automatización de procesos, mi trabajo consiste en simplicar tareas repetitiva en la area de administración; creando con la ayuda de Excel, pequeños sistemas que facilitan la manipulacion de datos e información. <br>
+    Por ésta razón decidí ampliar mis conocimientos estudiando Programación, para adquirir nuevas habilidades y seguir haciendo lo que me gusta; brindar soluciones eficaces para el usuario. <br>
     Te invito a que veas mi desarrollo personal!!
     </p>
+
+    <button id="seguir" type="button" class="btn btn-light"><a href="desarrolloCV.html" target="_blank"> Seguir  </a></button>
 </section>
 
 
-
-
-
-
-
-
-
-
-
-    <script src="/js/funciones.js"></script>
+    <script src="js/funciones.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
