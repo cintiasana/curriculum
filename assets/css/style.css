@@ -2,11 +2,13 @@
 #portada{
     margin-top: .5%;
     border:solid 1% black;
+    
 }
 #imgPortada{
     border-radius: 8%;
     border:solid 1% black;
     box-shadow: 10px 20px 28px #B9B4C7;
+    z-index: 10;
 }
 
 .ingresarNombre{
@@ -35,7 +37,9 @@
 }
 
 body{
-    background-image: url(/assets/img/fondo.jpg);
+    background-image: url(../img/poster3.jpg);
+    
+
 }
 
 #seccionMensaje{
@@ -45,9 +49,9 @@ body{
     margin: 8%;
 }
 
-.seccionMensaje{
-    background-image: url(/assets/img/fondo.jpg);
-}
+/*.seccionMensaje{
+    background-image: url(../img/poster2.jpg);
+}*/
 
 #seguir.btn.btn-light{
     font-size: 75%;

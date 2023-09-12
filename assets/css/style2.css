@@ -7,7 +7,7 @@
 /* color de fondo */
 body {
     background-color: #FFE1E1;
-    background-image: url(../img/Póster\ Imprimible\ Acuarela\ Rosa.jpg);
+    background-image: url(../img/poster3.jpg);
 }
 /* titulos de las secciones */
 .tituloSeccion {
@@ -89,12 +89,12 @@ i.fab.fa-codepen.fa-2xl:hover {
     transition: transform 0.3s ease-in-out;
     transform: scale(1.25);
 }
-/*reaccion de usuario con candado, cursor*/
+/*reaccion de usuario con candado, cursor
 i.fa-solid.fa-user-lock.fa-2xl:hover {
     color: #7F5283;
     transition: transform 0.3s ease-in-out;
     transform: scale(1.25); 
-}
+}*/
 
 /*reaccion de usuario abierto, cursor*/
 i.fa-solid.fa-user.fa-2xl:hover {

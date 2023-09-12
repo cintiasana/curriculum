@@ -22,6 +22,7 @@ document.getElementById('ingresarNombre').onclick = function(){
     console.log("ocultar el texto")
     
     document.getElementById('seccionMensaje').style.display='block';
+    
 
     document.getElementById('seccionPortada').style.display='none';
 }
